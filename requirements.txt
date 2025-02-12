@@ -1,0 +1,9 @@
+numpy
+matplotlib
+opencv-contrib-python
+Pillow
+scikit-learn
+docker
+kubernetes
+ultralytics
+flask

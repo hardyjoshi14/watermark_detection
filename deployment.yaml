@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: watermark-detection
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: watermark-detection
+  template:
+    metadata:
+      labels:
+        app: watermark-detection
+    spec:
+      containers:
+      - name: watermark-detection
+        image: watermark-detection:latest
+        ports:
+        - containerPort: 5000
