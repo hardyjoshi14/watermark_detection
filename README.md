@@ -4,7 +4,7 @@ The project detects and localizes watermarks in images using a deep learning mod
 
 For running the API, clone the repository and excute the following commands in the terminal:
 
-     cd watermark-detection
+     cd watermark_detection
      python3 -m venv venv
      source venv/bin/activate  (For Linux/macOS)     OR       venv\Scripts\activate  (For Windows)
      pip install -r requirements.txt
